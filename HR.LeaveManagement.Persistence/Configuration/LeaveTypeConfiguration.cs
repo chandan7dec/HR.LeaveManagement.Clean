@@ -19,8 +19,8 @@ namespace HR.LeaveManagement.Persistence.Configuration
                     Id = 1,
                     Name = "Vacation",
                     DefaultDays = 10,
-                    DateCreated = DateTime.Now,
-                    DateModified = DateTime.Now
+                    DateCreated = DateTime.Parse("2019/11/09"), // passing harcoded value to supress the migration error
+                    DateModified = DateTime.Parse("2020/11/09")
                 });
         }
     }

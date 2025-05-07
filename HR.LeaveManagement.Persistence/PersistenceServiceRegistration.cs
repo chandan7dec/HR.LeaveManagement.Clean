@@ -18,7 +18,7 @@ namespace HR.LeaveManagement.Persistence
         {
             services.AddDbContext<HrDatabaseContext>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("HrDatabaseConnectioinStirng"));
+                options.UseSqlServer(configuration.GetConnectionString("HrDatabaseConnectionString"));
             });
 
 
